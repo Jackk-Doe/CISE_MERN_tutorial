@@ -4,6 +4,8 @@
   "description": "CISE worksheet3 MERN tutorial",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/Jackk-Doe/CISE_MERN_tutorial/issues"
   },
-  "homepage": "https://github.com/Jackk-Doe/CISE_MERN_tutorial#readme"
+  "homepage": "https://github.com/Jackk-Doe/CISE_MERN_tutorial#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
