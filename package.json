@@ -1,0 +1,19 @@
+{
+  "name": "cise_worksheet_3_mern_tutorial",
+  "version": "1.0.0",
+  "description": "CISE worksheet3 MERN tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackk-Doe/CISE_MERN_tutorial.git"
+  },
+  "author": "Sengthavong Philavong (Jackk_Doe)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jackk-Doe/CISE_MERN_tutorial/issues"
+  },
+  "homepage": "https://github.com/Jackk-Doe/CISE_MERN_tutorial#readme"
+}
