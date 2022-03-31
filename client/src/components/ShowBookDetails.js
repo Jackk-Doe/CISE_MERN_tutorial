@@ -11,10 +11,11 @@ class showBookDetails extends Component {
     };
   }
 
+  // 5000 here
   componentDidMount() {
     // console.log("Print id: " + this.props.match.params.id);
     axios
-      .get('http://localhost:5000/api/books/'+this.props.match.params.id)
+      .get('http://localhost:/api/books/'+this.props.match.params.id)
       .then(res => {
         // console.log("Print-showBookDetails-API-response: " + res.data);
         this.setState({
@@ -26,9 +27,10 @@ class showBookDetails extends Component {
       })
   };
 
+  // 5000 here
   onDeleteClick (id) {
     axios
-      .delete('http://localhost:5000/api/books/'+id)
+      .delete('http://localhost:/api/books/'+id)
       .then(res => {
         this.props.history.push("/");
       })
