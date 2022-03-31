@@ -12,10 +12,10 @@ class ShowBookList extends Component {
       };
     }
   
-    // 5000 here
+    // In-Device testing : use this 'http://localhost:5000/api/books'
     componentDidMount() {
       axios
-        .get('http://localhost:/api/books')
+        .get('/api/books')
         .then(res => {
           this.setState({
             books: res.data
